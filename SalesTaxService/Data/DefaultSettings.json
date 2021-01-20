@@ -1,0 +1,9 @@
+{
+  "SalesTaxRate": 0.1,
+  "ImportTaxRate": 0.05,
+  "ExcludedSalesTaxItems": [
+    1,
+    2,
+    3
+  ]
+}
