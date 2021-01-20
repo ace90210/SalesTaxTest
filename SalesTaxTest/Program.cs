@@ -9,11 +9,15 @@ namespace SalesTaxTest
         {
             var salesService = new SalesTaxService();
             salesService.InitialiseConfiguration();
-            var ordersToProcess = salesService.LoadOrders("Sample3");
 
+            var ordersToProcess = salesService.LoadOrders("Sample1");
             salesService.ProcessOrders(ordersToProcess);
 
-            Console.WriteLine("Hello World!");
+            var ordersToProcess2 = salesService.LoadOrders("Sample2");
+            salesService.ProcessOrders(ordersToProcess2);
+
+            var ordersToProcess3 = salesService.LoadOrders("Sample3");
+            salesService.ProcessOrders(ordersToProcess3);
         }
     }
 }

@@ -21,6 +21,7 @@ namespace SalesTaxServices.Services
 
         public OrderItem[] LoadOrders(string orderFileName)
         {
+            Console.WriteLine($"{orderFileName} output:");
             string ordersJson = File.ReadAllText($"Data/{orderFileName}.json");
 
             var orders = JsonConvert.DeserializeObject<OrderItem[]>(ordersJson);
@@ -30,6 +31,7 @@ namespace SalesTaxServices.Services
 
         public void ProcessOrders(OrderItem[] orderItems)
         {
+
             decimal total = 0, salesTaxTotal = 0;
             foreach (var orderItem in orderItems)
             {
@@ -51,7 +53,7 @@ namespace SalesTaxServices.Services
 
             Console.WriteLine(string.Format("Sales Total: £{0:0.00}", salesTaxTotal));
 
-            Console.WriteLine(string.Format("Total £{0:0.00}", total));
+            Console.WriteLine(string.Format("Total £{0:0.00}\n", total));
         }
 
         private decimal ProcessImportTax(OrderItem orderItem, decimal rowPrice)
