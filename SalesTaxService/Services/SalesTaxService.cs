@@ -37,10 +37,10 @@ namespace SalesTaxServices.Services
             {
                 var rowPrice = orderItem.Quantity * orderItem.Price;
                 var salesTax = ProcessSalesTax(orderItem, rowPrice);
+                var importTax = ProcessImportTax(orderItem, rowPrice);
 
                 rowPrice += salesTax;
 
-                var importTax = ProcessImportTax(orderItem, rowPrice);
                 rowPrice += importTax;
 
 
