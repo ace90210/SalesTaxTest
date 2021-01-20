@@ -12,6 +12,12 @@
     <None Update="Data\DefaultSettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Data\Sample3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Sample2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Data\Sample1.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

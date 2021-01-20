@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "imported bottle of perfume",
+    "Quantity": 1,
+    "Price": 27.99,
+    "Imported": true,
+    "Type": 4
+  },
+  {
+    "Name": "bottle of perfume",
+    "Quantity": 1,
+    "Price": 18.99,
+    "Imported": false,
+    "Type": 4
+  },
+  {
+    "Name": "packet of headache pills",
+    "Quantity": 1,
+    "Price": 9.75,
+    "Imported": false,
+    "Type": 3
+  },
+  {
+    "Name": "imported box of chocolates",
+    "Quantity": 1,
+    "Price": 11.25,
+    "Imported": true,
+    "Type": 2
+  }
+]
