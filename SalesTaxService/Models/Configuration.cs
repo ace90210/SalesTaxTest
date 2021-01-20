@@ -1,4 +1,4 @@
-﻿namespace SalesTaxService.Models
+﻿namespace SalesTaxServices.Models
 {
     public static class Configuration
     {

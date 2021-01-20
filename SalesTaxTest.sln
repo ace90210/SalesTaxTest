@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30803.129
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxTest", "SalesTaxTest\SalesTaxTest.csproj", "{2326D2BA-E73A-483E-9299-1CF216432C3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxService", "SalesTaxService\SalesTaxService.csproj", "{03DF0DD3-C176-47DD-B93B-D37F3771967E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesTaxServices", "SalesTaxService\SalesTaxServices.csproj", "{03DF0DD3-C176-47DD-B93B-D37F3771967E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

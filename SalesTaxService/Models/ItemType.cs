@@ -1,4 +1,4 @@
-﻿namespace SalesTaxService.Models
+﻿namespace SalesTaxServices.Models
 {
     public enum ItemType
     {

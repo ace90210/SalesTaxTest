@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SalesTaxServices.Services;
+using System;
 
 namespace SalesTaxTest
 {
@@ -6,6 +7,12 @@ namespace SalesTaxTest
     {
         static void Main(string[] args)
         {
+            var salesService = new SalesTaxService();
+            salesService.InitialiseConfiguration();
+            var ordersToProcess = salesService.LoadOrders("Sample1");
+
+            salesService.ProcessOrders(ordersToProcess);
+
             Console.WriteLine("Hello World!");
         }
     }
